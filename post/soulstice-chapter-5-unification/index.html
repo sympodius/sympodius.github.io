@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Soulstice - Chapter 5 - Unification</title>
+    <meta charset="utf-8">
+    
+    <meta name="generator" content="Hugo 0.26" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="http://johnurquhartferguson.info/img/favicon.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://johnurquhartferguson.info/css/juf.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Josefin+Sans" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://unpkg.com/nanogallery2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://unpkg.com/nanogallery2/dist/jquery.nanogallery2.min.js"></script>
+    <script src="http://johnurquhartferguson.info/js/juf.js"></script>
+  </head>
+  
+      
+
+<body id="home">
+  
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	  <span class="icon-bar"></span>
+	  <span class="icon-bar"></span>
+	  <span class="icon-bar"></span>
+	</button>
+	<a class="navbar-brand JUFSigil JUFSigilNavBar" href="http://johnurquhartferguson.info/">JUF</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+	<ul class="nav navbar-nav navbar-right">
+	  <li><a href="http://johnurquhartferguson.info/about">ABOUT</a></li>
+	  <li><a href="http://johnurquhartferguson.info/categories/blog/">BLOG</a></li>
+	  <li><a href="http://johnurquhartferguson.info/categories/stories/">STORIES</a></li>
+	</ul>
+      </div>
+    </div>
+  </nav>
+  
+
+
+<div class="jumbotron text-center">
+  <h2 class="jumboHeader">Soulstice - Chapter 5 - Unification</h2>
+  <h3>Sat, Apr 1, 2017</h3>
+</div>
+
+<div id="content" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <p>&ldquo;Do you want anything from the coffee shop, Julia?&rdquo;</p>
+
+<p>&ldquo;No, I&rsquo;m fine thanks, Coco.&rdquo;</p>
+
+<p>Coco put on her jacket and slung her bag around her shoulder as she headed for the door. Julia and Coco shared a small room together. Just two desks amid a sea of folders and loose paper.</p>
+
+<p>As she opened and closed the office door behind her, Coco smiled at the logo printed on the glass which read, <em>I should Coco</em>. Their little company had been on the go for two years now and she and Julia were starting to get a name for themselves. Coco sometimes felt bad that her business partner&rsquo;s name wasn&rsquo;t included, but Julia preferred having Coco up front while she engaged herself behind the scenes.</p>
+
+<p>Their building was in the middle of the city centre. The rent was high for such a small space, but it was easier to deal with clients this way. Not that clients ever saw the office, but they were usually in the city anyway and it made it easier for Coco to meet them at swanky restaurants or at their own places of work. One personal fringe benefit for Coco was the coffee shop on the ground floor.</p>
+
+<p>People were coming out the shop as she approached. The open door let the rich smell of brewed coffee hit Coco in the face from ten meters away. They politely held the door open for her and she did a little hopping run for the last few steps to stop them having to wait too long.</p>
+
+<p>Inside was a mixture of faces she knew and faces she would likely never see again, but all were nameless to her. Coco assumed the familiar faces belonged to people who worked in her building or in those nearby. The rest were part of the movable population that kept city centres feeling dynamic and alive. It was curious to spend so much time in proximity to these familiar strangers. Coco knew their faces, had a sense of their schedule, and even caught little snippets of their lives through overheard phone conversations or the occasional meetings they might have with real people. Today, however, was a more typical day. All the people were sitting alone, reading their books and staring at computers.</p>
+
+<p>It looked like there was a backlog. Lots of people were waiting at the end of the counter for their orders to arrive. Mercifully, the queue for new orders was quite short. As Coco neared the head of the queue, she got her driving licence out of her handbag.</p>
+
+<p>&ldquo;Good morning and welcome to Carlita&rsquo;s. How can I make your day better?&rdquo; The server&rsquo;s enthusiastic words didn&rsquo;t quite match her tone, but she had to say that every day and Coco always appreciated the effort.</p>
+
+<p>&ldquo;Hey there. It&rsquo;s my birthday today. Can I get the birthday special?&rdquo; Coco showed her driving licence to the barista whose smile wavered just the tiniest amount.</p>
+
+<p>&ldquo;Happy birthday. I&rsquo;ll just get that ready for you.&rdquo; The barista wrote a squiggle on a cup and passed it onto the one of the people actually making the drinks.</p>
+
+<p>The birthday special was a particularly rich coffee that had the charming novelty of being about 50 percent melted chocolate. This high concentration of melted chocolate meant that the drink took a long time to make. It was the only drink on the menu that included melted chocolate (even their hot &lsquo;chocolate&rsquo; didn&rsquo;t include it) and so it was always made from scratch. The best thing, though, was that it was free.</p>
+
+<p>Coco moved down toward the end of the bar to await her drink. After less than a minute, Coco was shocked to hear someone behind the bar shout out, &ldquo;Birthday special,&rdquo; and place the drink on the counter. Coco smiled and reached out to grab the drink but instead of clasping the cardboard heat-cover of the cup, her fingers slipped around the warm skin of another hand that had beaten her to it.</p>
+
+<p>There was a stinging static shock followed by a mildly surprised, &ldquo;Oh!&rdquo; after which, both hands pulled back from the cup. Coco looked up to see a man about her height that she recognised. Another familiar face without a name.</p>
+
+<p>&ldquo;Oh, I&rsquo;m sorry, that must be yours. I thought it was a bit quick,&rdquo; Coco said, slightly embarrassed.</p>
+
+<p>The man smiled warmly, &ldquo;No problem at all,&rdquo; then he giggled slightly, &ldquo;Hey, did you feel that?&rdquo;</p>
+
+<p>Coco didn&rsquo;t hear men giggle very often, but it seemed rather endearing, &ldquo;Yeah, it sent a shiver through me. Oh, look at my arm!&rdquo; Coco showed her arm to the man to demonstrate the goosebumps she had received.</p>
+
+<p>&ldquo;Wow, I guess I really got you. Sorry about that.&rdquo;</p>
+
+<p>&ldquo;Oh, don&rsquo;t be silly. It woke me up better than the coffee will.&rdquo;</p>
+
+<p>&ldquo;Ha ha,&rdquo; the man paused a little awkwardly for a second, looking down at the ground but with a smile on his face. Then suddenly, he sparked back into life. &ldquo;Oh, is it your birthday too?&rdquo; he said, pointing at the coffee cup.</p>
+
+<p>&ldquo;Yes! Another year round the sun,&rdquo; Coco cringed inside her head at her terrible attempt to make conversation.</p>
+
+<p>He giggled a little again, followed by another awkward pause, &ldquo;Oh, well you take the coffee then. My small birthday consolation to you.&rdquo;</p>
+
+<p>&ldquo;That&rsquo;s very sweet of you but it&rsquo;s your birthday too.&rdquo;</p>
+
+<p>&ldquo;No, honestly, I insist!&rdquo;</p>
+
+<p>Coco felt herself reluctant to leave. She&rsquo;d seen him here many times and had always thought he had a kind face. He reminded her of someone, but she couldn&rsquo;t place who.</p>
+
+<p>&ldquo;How about you take your coffee and sit and keep me company till mine is ready?&rdquo;</p>
+
+<p>&ldquo;Yeah. Yeah, I&rsquo;d like that.&rdquo;</p>
+
+<p>The man grabbed his coffee and they sat down together at a nearby table.</p>
+
+<p>&ldquo;I&rsquo;ve seen you here before, do you work nearby?&rdquo; the man said to her.</p>
+
+<p>Coco was pleased that he knew her face as well, &ldquo;Yeah, I run a business upstairs actually. We&rsquo;ve not been at it long. Just me and a friend from University, but we&rsquo;re getting a lot of buzz.&rdquo;</p>
+
+<p>&ldquo;And a coffee shop on your doorstep. You&rsquo;re living the dream!&rdquo;</p>
+
+<p>&ldquo;Ha ha. Yeah.&rdquo;</p>
+
+<p>&ldquo;And what does your company do?&rdquo;</p>
+
+<p>&ldquo;Oh sorry, yeah. We basically do public relations for scientists. We try to pair them up with the right investor funding so that everyone is happy and sometimes that involves shaping the science in a way the press and media can get excited about it. That sort of thing.&rdquo;</p>
+
+<p>&ldquo;Wow. I never knew that was a thing. It sounds really interesting.&rdquo;</p>
+
+<p>&ldquo;Well, you know. I enjoy it,&rdquo; Coco gave a big smile, but could feel herself blushing. &ldquo;What about you?&rdquo;</p>
+
+<p>&ldquo;I&rsquo;m a scientist.&rdquo;</p>
+
+<p>&ldquo;Ha ha! Really?!&rdquo;</p>
+
+<p>&ldquo;Well, sort of,&rdquo; he said with a big smile of his own. He seemed to like it when she laughed. &ldquo;I work with scientists anyway. I&rsquo;m a bioinformatician. Real scientists explain stuff to me like I&rsquo;m eight years old, then I try to solve their data problems by programming computers.&rdquo;</p>
+
+<p>&ldquo;Heh heh. I see. Doesn&rsquo;t that mean you&rsquo;re a computer scientist?&rdquo;</p>
+
+<p>&ldquo;Well, it says that on a parchment somewhere,&rdquo; the man was trying to sound nonchalant, but he was clearly trying to impress her.</p>
+
+<p>Coco found his terrible attempts at subtlety oddly charming, &ldquo;Degrees and honours, eh? Did you always want to do that?&rdquo;</p>
+
+<p>&ldquo;Mm, not always. I guess I&rsquo;ve wanted to do it longer than anything else but it&rsquo;s regularly broken up by periods of wanting to do something entirely different. Just a shame that one of those times was right in the middle of my computing degree,&rdquo; the man&rsquo;s face turned almost purple as his eyes opened wide and looked down to the side.</p>
+
+<p>Coco could tell he was kicking himself for admitting that, but she found his openness attractive, &ldquo;Did you fail a class or something?&rdquo;</p>
+
+<p>&ldquo;I, eh, no. I, em&#x2026; had to repeat a year actually. But I managed to get a PhD in the end, so it&rsquo;s fine really.&rdquo;</p>
+
+<p>&ldquo;Oh, well you did better than me then: I stopped after I got my masters.&rdquo;</p>
+
+<p>&ldquo;Well done! What did you study?&rdquo;</p>
+
+<p>&ldquo;History of Philosophy.&rdquo;</p>
+
+<p>&ldquo;Oh my gosh, really? I took that for two years. Where did you study?&rdquo;</p>
+
+<p>Coco thought it was adorable that the man had used the word <em>gosh</em> and smiled broadly as she replied, &ldquo;Westcoat University.&rdquo;</p>
+
+<p>&ldquo;So did I?! That&rsquo;s crazy! How old are you today?&rdquo; the man immediately rolled his eyes then hid them behind his hand and looked down, &ldquo;That is such a rude thing to ask, just ignore me.&rdquo;</p>
+
+<p>&ldquo;Ha ha! No, it&rsquo;s fine! I&rsquo;m 27 today.&rdquo;</p>
+
+<p>&ldquo;Me too! I can&rsquo;t believe that. How weird is this?! We must have been on that course together!&rdquo;</p>
+
+<p>Suddenly Coco placed him. He had rarely attended lectures though, &ldquo;Hey, were you that guy that used to sneak in at the end to get the notes and thought no one noticed?&rdquo;</p>
+
+<p>The man now covered his face with both hands, &ldquo;Oh <strong>NO</strong>! I can&rsquo;t believe anyone knew I was doing that! That is so embarrassing. That was just before I failed. Or, as I like to think about it, just before I turned it all around.&rdquo;</p>
+
+<p>Coco laughed and saw his smile grow again, &ldquo;I guess you must have if you got a Doctorate in the end.&rdquo;</p>
+
+<p>&ldquo;Ha! Well&#x2026; I guess I thought it would put it to bed. I was pretty disappointed with myself at the time. I knew I wasn&rsquo;t being the person I wanted to be.&rdquo; The man sounded soulful.</p>
+
+<p>&ldquo;Yeah. I know how that can feel,&rdquo; Coco heard some soulfulness in her own voice too, thinking about her early years. &ldquo;My name&rsquo;s Coco.&rdquo;</p>
+
+<p>&ldquo;I&rsquo;m Russell.&rdquo; With another big smile, Russell offered his hand.</p>
+
+<p>With a big smile of her own, she took it and felt another static shock between them.</p>
+
+<p>&ldquo;Ha ha! Talk about sparks flying!&rdquo;</p>
+
+<p>Coco blushed, but let her hand linger a little longer than she&rsquo;d intended to.</p>
+
+<p>Russell broke the handshake first, &ldquo;Sorry, didn&rsquo;t mean to linger. Are you from around here?&rdquo;</p>
+
+<p>&ldquo;Not too far, I grew up in Travenda. It&rsquo;s a smallish town about forty miles from here.&rdquo;</p>
+
+<p>Russell looked amazed, &ldquo;Yeah, I&rsquo;m familiar with it. I went to Travenda High.&rdquo;</p>
+
+<p>&ldquo;No you didn&rsquo;t! You&rsquo;re just trying to freak me out now.&rdquo;</p>
+
+<p>&ldquo;I did! But you weren&rsquo;t there. Did you go to Drumkeltie?&rdquo;</p>
+
+<p>&ldquo;Oh my God! You are from Travenda! Yes, I totally went to Drumkeltie High! How did we never meet in a town so small? What part of Travenda are you from?&rdquo;</p>
+
+<p>&ldquo;Blythe Hill&rdquo;</p>
+
+<p>Coco realised why they might have never met. Although Travenda was indeed a small town, Blythe Hill was where the well-to-do people lived. It was the other side of town as well. Coco never spent any time there.</p>
+
+<p>Coco felt a little sheepish about where the conversation might be heading, &ldquo;Oh, that&rsquo;s a lovely part of town. One of my teachers lived there actually. Mr Hunt?&rdquo;</p>
+
+<p>&ldquo;The mathematics teacher? He lived on my street. He was the only neighbour who didn&rsquo;t shout at us when our ball would land in his garden.&rdquo;</p>
+
+<p>&ldquo;He was the best teacher I ever had. I&rsquo;m not sure what would have happened to me without him, actually.&rdquo;</p>
+
+<p>Russell had an empathetic expression on his face but didn&rsquo;t let the silence linger too long, &ldquo;What part of town were you from?&rdquo;</p>
+
+<p>&ldquo;Eagle Wynd. It wasn&rsquo;t as bad as people thought though. It was OK.&rdquo; Coco saw the concern on Russell&rsquo;s face, &ldquo;We had some good times down there. Played a few ball games ourselves.&rdquo; Coco offered another small smile, waiting Russell&rsquo;s reaction. She suddenly felt very self-conscious about herself and her childhood.</p>
+
+<p>Russell spoke softly, &ldquo;You know, when I was a kid, my bike got stolen. I&rsquo;d left it out in the driveway and someone had taken it. My Dad was pretty angry about it. He made me go all round the neighbourhood looking for it. A few days later, he came home with my bike in the boot of his car. He told me my Granddad seen some kids in Eagle Wynd with it and chased them off.&rdquo;</p>
+
+<p>&ldquo;Oh God, I&rsquo;m sorry.&rdquo;</p>
+
+<p>&ldquo;Oh no, that&rsquo;s not what I meant. There were no Eagle Wynd kids. I mean, obviously there were kids in Eagle Wynd, but they didn&rsquo;t steal my bike. My Dad stole it.&rdquo;</p>
+
+<p>&ldquo;What?&rdquo;</p>
+
+<p>&ldquo;Yeah, he took it round to my grandparent&rsquo;s place for a few days so I&rsquo;d learn my lesson about leaving it out. He never told me that though. My grandpa let it slip a few weeks after that. He asked me if my Dad had given me my bike back yet. That made a lot more sense to me. I never thought it was Eagle Wynd kids. We used to play them at football down the park. They were nice guys. Mr Hunt used to organise those matches, you know?&rdquo;</p>
+
+<p>&ldquo;No, I never knew that. I&rsquo;m glad it wasn&rsquo;t Eagle Wynd kids that stole your bike though. I couldn&rsquo;t honestly say I loved growing up there, but the people really weren&rsquo;t that different from anywhere else. There were some good, some bad. I suppose there probably were a few bike robbers around.&rdquo;</p>
+
+<p>&ldquo;Well, there certainly were in Blythe Hill. And I&rsquo;m the son of one!&rdquo;</p>
+
+<p>They both laughed.</p>
+
+<p>Russell reached out his hand to hold Coco&rsquo;s, &ldquo;I hope this isn&rsquo;t weird to say, but I&rsquo;m really glad we finally got to talk to each other. I&rsquo;ve been trying to work up the courage for a while now.&rdquo;</p>
+
+<p>This time there was no static shock. Coco felt Russell&rsquo;s hand. It was strong, warm and tender.</p>
+
+<p>&ldquo;I can&rsquo;t believe we&rsquo;ve never met before now. Isn&rsquo;t that funny, though?&rdquo; Coco felt the world around her melt away.</p>
+
+<p>&ldquo;What do you mean?&rdquo;</p>
+
+<p>&ldquo;We grew up in the same place, knew some of the same people, went to the same class at University, have the same birthday, yet we never met until today.&rdquo;</p>
+
+<p>Russell looked at Coco&rsquo;s hand, feeling her soft skin on his fingers. Something felt very right about that hand. He turned his attention back to her eyes. They were a deeply rich brown. Almost like chocolate. He felt lost in them as he spoke words that seemed to come from elsewhere, &ldquo;Maybe we just weren&rsquo;t ready yet. But I&rsquo;m glad we&rsquo;ve found each other again.&rdquo;</p>
+
+    </div>
+    <div class="col-sm-4">
+      
+        <h3><span class="glyphicon listicon glyphicon-book"></span>Soulstice</h3>
+        
+        
+        
+          
+        
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+          
+        
+        
+        
+	
+              <p><a href="http://johnurquhartferguson.info/post/soulstice-preface/">Preface</a></p>
+            
+          
+        
+	
+              <p><a href="http://johnurquhartferguson.info/post/soulstice-chapter-1-eternal/">Chapter 1 - Eternal</a></p>
+            
+          
+        
+	
+              <p><a href="http://johnurquhartferguson.info/post/soulstice-chapter-2-finite/">Chapter 2 - Finite</a></p>
+            
+          
+        
+	
+              <p><a href="http://johnurquhartferguson.info/post/soulstice-chapter-3-limited/">Chapter 3 - Limited</a></p>
+            
+          
+        
+	
+              <p><a href="http://johnurquhartferguson.info/post/soulstice-chapter-4-separation/">Chapter 4 - Separation</a></p>
+            
+          
+        
+	
+              <p><a href="http://johnurquhartferguson.info/post/soulstice-chapter-5-unification/">Chapter 5 - Unification</a></p>
+            
+          
+        
+      
+      
+      
+      
+      <h4><i class="material-icons">rss_feed</i>Subscribe</h4>
+      <p><a href="http://johnurquhartferguson.info/categories/blog/index.xml" type="application/rss+xml" target="_blank">Subscribe to Blog</a></p>
+      <p><a href="http://johnurquhartferguson.info/categories/stories/index.xml" type="application/rss+xml" target="_blank">Subscribe to Stories</a></p>
+      <p><a href="http://johnurquhartferguson.info/index.xml" type="application/rss+xml" target="_blank">Subscribe to Entire Site</a></p>
+    </div>
+  </div>
+</div>
+
+    <footer class="container-fluid text-center">
+      <a href="#home" title="To Top">
+	<span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <p class="center follow-bubbles">
+	<a href="https://twitter.com/sympodius" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://www.flickr.com/photos/fictionality/" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-flickr fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://www.instagram.com/sympodius/" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://github.com/sympodius" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://www.reddit.com/user/sympodius" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-reddit-alien fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://www.facebook.com/john.u.ferguson" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://uk.pinterest.com/sympodius/" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-pinterest-p fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://www.scribd.com/user/31340930/John-Urquhart-Ferguson" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-scribd fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://imvdb.com/n/john-ferguson" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-youtube-play fa-stack-1x fa-inverse"></i></span></a>
+      </p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a> 2018 <a href="https://keybase.io/sympodius" target="_blank">John Urquhart Ferguson</a></p>
+    </footer>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-30129066-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    
+  </body>
+</html>
+
+
+

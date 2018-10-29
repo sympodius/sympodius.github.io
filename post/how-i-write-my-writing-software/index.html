@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>How I Write - My Writing Software</title>
+    <meta charset="utf-8">
+    
+    <meta name="generator" content="Hugo 0.26" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="http://johnurquhartferguson.info/img/favicon.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://johnurquhartferguson.info/css/juf.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Josefin+Sans" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://unpkg.com/nanogallery2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://unpkg.com/nanogallery2/dist/jquery.nanogallery2.min.js"></script>
+    <script src="http://johnurquhartferguson.info/js/juf.js"></script>
+  </head>
+  
+      
+
+<body id="home">
+  
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	  <span class="icon-bar"></span>
+	  <span class="icon-bar"></span>
+	  <span class="icon-bar"></span>
+	</button>
+	<a class="navbar-brand JUFSigil JUFSigilNavBar" href="http://johnurquhartferguson.info/">JUF</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+	<ul class="nav navbar-nav navbar-right">
+	  <li><a href="http://johnurquhartferguson.info/about">ABOUT</a></li>
+	  <li><a href="http://johnurquhartferguson.info/categories/blog/">BLOG</a></li>
+	  <li><a href="http://johnurquhartferguson.info/categories/stories/">STORIES</a></li>
+	</ul>
+      </div>
+    </div>
+  </nav>
+  
+
+
+<div class="jumbotron text-center">
+  <h2 class="jumboHeader">How I Write - My Writing Software</h2>
+  <h3>Mon, Oct 9, 2017</h3>
+</div>
+
+<div id="content" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <p>Are you ready to learn about the overly complicated system I use for my writing? I&rsquo;m not sure that I would be, but apparently a few of you are desperate to find out. At least, that&rsquo;s what I&rsquo;m led to believe by the overwhelming number of requests (there were three) I&rsquo;ve had to write this series of articles.</p>
+
+<p>The plan is to talk through some software and hardware that I use for writing. There will also be some bits on motivation and inspiration. I hope that it might prove useful to other budding writers (and be vaguely interesting to everyone else).</p>
+
+<p>Today we are going to look at <a href="https://www.gnu.org/software/emacs/">Emacs</a>, the software in which I do my writing. Whenever I tell people this, I usually get asked one of two questions: &ldquo;What&rsquo;s Emacs?&rdquo; or &ldquo;Why don&rsquo;t you just use Word?&rdquo; We shall endeavour to answer both these questions but do keep in mind that these are my personal opinions and that I&rsquo;m not an Emacs expert.</p>
+
+<p>Let&rsquo;s start with the second question first, &ldquo;Why don&rsquo;t you just use Word?&rdquo;</p>
+
+<p>Word is a perfectly fine program. I have friends that have written entire books and PhD theses in Word. In no way am I denigrating Microsoft Word. Now that we&rsquo;ve cleared that up, let&rsquo;s talk about why I don&rsquo;t want to use it.</p>
+
+<p>I have used word processors in the past to do writing. Microsoft Word was one of them. I also used OpenOffice and LibreOffice. LibreOffice was my preferred word processor, but I found that none of them satisfied my writing needs. My main issue was with planning. I don&rsquo;t feel that Word Processors are set up for planning out stories. My solution had been to create a &lsquo;master document&rsquo; that listed the names of other documents in the project. These documents included location descriptions, character sheets, story notes and the story file itself. This way of doing things worked well for me, but I found that doing it in a word processor was usually quite slow.</p>
+
+<p>Another problem I had with word processors is that I could never get documents to look truly professional.</p>
+
+<p>This led to my next experiment. Instead of doing everything in a word processor (which is both for writing and formatting), I tried to use different programs for different parts of the writing process. I continued to use LibreOffice for planning, but I tried to do my actual writing in a &lsquo;distraction free text editor.&rsquo; These are minimalist text editors that generally take up your whole screen and try to keep you focused on writing. I was never totally sold on this concept, but I gave it a go using a program called <a href="https://ommwriter.com/">OmmWriter</a>. Once I had written my text, I would then manually format it in a typesetting program, called <a href="https://www.latex-project.org/">LaTeX</a>.</p>
+
+<p>I found that distraction free writing did not particularly improve my writing speed or enjoyment (though many people swear by this sort of tool). The typesetting was fantastic though. LaTeX is an incredibly powerful tool and I have a deep love for it. Amazingly, it is free software. However, it is also essentially a programming language and has a steep learning curve. I consider myself quite technically minded and it still took me the better part of a year to feel totally comfortable with it.</p>
+
+<p>So, for a while, I started writing directly in LaTeX. I even wrote most of my PhD thesis this way. This isn&rsquo;t a great idea. It&rsquo;s not an awful idea, but it&rsquo;s not a great idea. The problem with writing directly in LaTeX is that it splits up the text with a lot of programming code. This makes it unpleasant to edit and time-consuming to cleanly convert to other formats. For example, if I want to publish a story on a website, I need to manually convert all the text from LaTeX into something the website will accept. There are automated programs for LaTeX that attempt to do this, but I did not have great success with them. LaTeX also isn&rsquo;t great for planning anything. I was getting increasingly fed up with having to open word processors and LaTeX at the same time and having to switch between them and really just wanted one program that could do everything.</p>
+
+<p>The first program I tried to use for this was <a href="https://www.literatureandlatte.com/scrivener.php">Scrivener</a>. Scrivener is a fantastic program. I would say that most writers should probably just buy Scrivener and use that. It does everything that I can imagine most writers would want. It has perhaps the best story planning features of any program I&rsquo;ve used, it can output to various formats, and it is a joy to write in (even including a distraction free mode if that&rsquo;s your sort of thing). I used Scrivener quite happily for several years and even wrote the first drafts of a couple of novels in it. For most of that time, my only real issue with it was that I still preferred the typeset output of LaTeX and would often manually convert these large swathes of text once I was done with a draft. This was quite time-consuming. The same was also true of publishing to the web. But I was willing to forgive all that because Scrivener was so enjoyable to plan and write in.</p>
+
+<p>So why did I change?</p>
+
+<p>Eventually there were two issues that made me leave Scrivener and they are probably not important to most writers. The first is that Scrivener stores your work not as one file but as a series of files in a folder. This makes it a bit more of a hassle to back up and keep different drafts. One day, one of the files in a project became corrupted and Scrivener was unable to recover, requiring me to go through all the files in a different editor, manually extract all the text, then start a new Scrivener project and rebuild everything.</p>
+
+<p>The second issue I had is that Scrivener only runs on MacOS and Windows. I was becoming increasingly inclined to do my writing on the move. In fact, as you&rsquo;ll find out in a later post, finding a great portable writing computer has been a dream of mine since I was very young. As I attempted to use smaller and smaller computers for writing, I was finding that they generally didn&rsquo;t run Windows or MacOS. I boldly attempted to write in whatever text editor these computers had available (manually adding the text back into Scrivener when I returned home) but it was a painful operation. Also, not having access to my planning documents while writing on the move proved to be very unproductive.</p>
+
+<p>So, after this long journey, I had discovered what I needed from my writing tool:</p>
+
+<ul>
+<li>It must work on most operating systems</li>
+<li>It must output to any format I choose with minimal manual input (write once, publish anywhere)</li>
+<li>It should include good features for planning</li>
+<li>It should be enjoyable to write in</li>
+<li>It should be contained within one interface</li>
+</ul>
+
+<p>Scrivener was certainly the tool that came the closest to achieving these rather demanding goals, but it was still short on the first two. I think we have also fully answered the question of why I didn&rsquo;t just use Word.</p>
+
+<p>Now onto the second question: What&rsquo;s Emacs?</p>
+
+<p>Emacs is a tool I was already loosely familiar with, but not for writing. During my degree in Computing Science, we had been given a brief introduction into two text editors called Emacs and Vim. We had been told that both could be used for programming and that, although they each had a steep learning curve, we could assume they would work on any computer that we were ever likely to use. As such, we were encouraged to learn them to &lsquo;future/past proof&rsquo; our programming tool-set. I, like most of my fellow students, learnt them well enough to prove I could use them, then never used them again. It&rsquo;s not that these tools are bad (far from it), but they take a significant amount of time to learn. Once you know them well your efficiency is likely to be extremely high, but in the middle of a degree with coursework constantly looming over you, you don&rsquo;t feel you have time to muck about with that sort of thing.</p>
+
+<p>When searching for a new tool to satisfy the conditions above, Emacs and Vim floated back into my mind. I read up on them (more so than I had done at University) and found that they dated back to the earliest days of computing, had been worked on and improved for just as long, and were now extremely powerful and efficient tools (once you got to know them). Also, they both seemed to work on most computers that ever existed or were ever likely to exist. Each of them has various pros and cons over the other, but it was a particular feature of Emacs that intrigued me.</p>
+
+<p>Emacs has a feature called OrgMode that makes it act a bit like a Wiki. You can easily create hyperlinks between documents and structure text with headings and basic formatting. More interestingly, this is all done in pure text, with OrgMode simply interpreting the results for display. Emacs itself also features the ability to have multiple files on screen at once. Taken together, this meant that I could still use my &lsquo;master document&rsquo; system from years ago, but now I could actually click on the names of files to have them immediately open in another pane in the same program. This may seem like a small victory, but the potential power underlying OrgMode goes far beyond this. With a bit of setup for each project (which Scrivener would have done for me automatically I suppose), I could mimic all of Scrivener&rsquo;s features and be using a system that worked on most operating systems.</p>
+
+<p>The last part of the puzzle was getting Emacs and OrgMode to output to other formats. Well, it turns out OrgMode has a bunch of exporters built in to do most of the heavy lifting for me. The only problem is that my master document setup made it difficult for OrgMode to know which files to include in the output and how they should be merged together.</p>
+
+<p>This is where things get even more insane. Emacs has a programming language built right into it at a fundamental level. In fact, most of Emacs is actually just smaller programs written in that language, all working together to make the larger program that is Emacs. Therefore, I could just learn that programming language, write a few programs of my own to deal with the output formatting and voila: all my criteria were met.</p>
+
+<p>I have attempted to avoid getting too technical in this article about how my Emacs/OrgMode setup works. As this series of articles progresses, you will eventually have enough information to mimic my entire writing setup (if you really want to). I think that&rsquo;s enough for one article though.</p>
+
+    </div>
+    <div class="col-sm-4">
+      
+      
+      
+      
+      <h4><i class="material-icons">rss_feed</i>Subscribe</h4>
+      <p><a href="http://johnurquhartferguson.info/categories/blog/index.xml" type="application/rss+xml" target="_blank">Subscribe to Blog</a></p>
+      <p><a href="http://johnurquhartferguson.info/categories/stories/index.xml" type="application/rss+xml" target="_blank">Subscribe to Stories</a></p>
+      <p><a href="http://johnurquhartferguson.info/index.xml" type="application/rss+xml" target="_blank">Subscribe to Entire Site</a></p>
+    </div>
+  </div>
+</div>
+
+    <footer class="container-fluid text-center">
+      <a href="#home" title="To Top">
+	<span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <p class="center follow-bubbles">
+	<a href="https://twitter.com/sympodius" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://www.flickr.com/photos/fictionality/" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-flickr fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://www.instagram.com/sympodius/" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://github.com/sympodius" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://www.reddit.com/user/sympodius" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-reddit-alien fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://www.facebook.com/john.u.ferguson" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://uk.pinterest.com/sympodius/" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-pinterest-p fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://www.scribd.com/user/31340930/John-Urquhart-Ferguson" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-scribd fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://imvdb.com/n/john-ferguson" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-youtube-play fa-stack-1x fa-inverse"></i></span></a>
+      </p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a> 2018 <a href="https://keybase.io/sympodius" target="_blank">John Urquhart Ferguson</a></p>
+    </footer>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-30129066-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    
+  </body>
+</html>
+
+
+

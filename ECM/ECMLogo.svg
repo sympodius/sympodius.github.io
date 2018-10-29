@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2016-8-4: Created with FontForge (http://fontforge.org)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20160407 at Thu Aug 04 15:48:42 2016
+ By johnferguson
+Copyright (c) 2016, Bob Rafferty &#38; John Urquhart Ferguson
+</metadata>
+<defs>
+<font id="ECMLogo" horiz-adv-x="626" >
+  <font-face 
+    font-family="ECMLogo"
+    font-weight="400"
+    font-stretch="normal"
+    units-per-em="1024"
+    panose-1="2 0 5 3 0 0 0 0 0 0"
+    ascent="819"
+    descent="-205"
+    bbox="61 0 771 819"
+    underline-thickness="51.2"
+    underline-position="-102.4"
+    unicode-range="U+0043-004D"
+  />
+    <missing-glyph />
+    <glyph glyph-name="E" unicode="E" 
+d="M61 819h504v-100h-504v100zM61 460h504v-101h-504v101zM61 100h504v-100h-504v100z" />
+    <glyph glyph-name="C" unicode="C" 
+d="M61 819h504v-100h-411v-357h-93v357v100zM61 100h504v-100h-504v100z" />
+    <glyph glyph-name="M" unicode="M" horiz-adv-x="832" 
+d="M469 410h-92v409h92v-409zM771 0h-92v819h92v-819zM154 0h-93v819h93v-819z" />
+  </font>
+</defs></svg>

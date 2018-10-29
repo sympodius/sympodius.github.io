@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/sympodius
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://johnurquhartferguson.info
+  * I am sympodius (https://keybase.io/sympodius) on keybase.
+  * I have a public key ASCUQG1wdqUoVmIIAMJavgvvwf_Y_51AfzlxVrmgYH2Hpgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "012094406d7076a52856620800c25abe0befc1ffd8ff9d407f397156b9a0607d87a60a",
+            "host": "keybase.io",
+            "kid": "012094406d7076a52856620800c25abe0befc1ffd8ff9d407f397156b9a0607d87a60a",
+            "uid": "ad5dcdcdc2be6e02cf20675ca755ba19",
+            "username": "sympodius"
+        },
+        "service": {
+            "hostname": "johnurquhartferguson.info",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1484264320,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1484264286,
+        "hash": "28cc67de3efe97346bd6533d4f9ebd623a002f12abafb6e5869819e551744ab78677479645990e3145843143120e68eb758602887990a92083cf028094ea54ac",
+        "seqno": 797481
+    },
+    "prev": "43f7432f37a6c746988b6df4bb072e28db3ae62c72f0a5a06261d7153ac06a65",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEglEBtcHalKFZiCADCWr4L78H/2P+dQH85cVa5oGB9h6YKp3BheWxvYWTFAwJ7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwOTQ0MDZkNzA3NmE1Mjg1NjYyMDgwMGMyNWFiZTBiZWZjMWZmZDhmZjlkNDA3ZjM5NzE1NmI5YTA2MDdkODdhNjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwOTQ0MDZkNzA3NmE1Mjg1NjYyMDgwMGMyNWFiZTBiZWZjMWZmZDhmZjlkNDA3ZjM5NzE1NmI5YTA2MDdkODdhNjBhIiwidWlkIjoiYWQ1ZGNkY2RjMmJlNmUwMmNmMjA2NzVjYTc1NWJhMTkiLCJ1c2VybmFtZSI6InN5bXBvZGl1cyJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiam9obnVycXVoYXJ0ZmVyZ3Vzb24uaW5mbyIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTgifSwiY3RpbWUiOjE0ODQyNjQzMjAsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ4NDI2NDI4NiwiaGFzaCI6IjI4Y2M2N2RlM2VmZTk3MzQ2YmQ2NTMzZDRmOWViZDYyM2EwMDJmMTJhYmFmYjZlNTg2OTgxOWU1NTE3NDRhYjc4Njc3NDc5NjQ1OTkwZTMxNDU4NDMxNDMxMjBlNjhlYjc1ODYwMjg4Nzk5MGE5MjA4M2NmMDI4MDk0ZWE1NGFjIiwic2Vxbm8iOjc5NzQ4MX0sInByZXYiOiI0M2Y3NDMyZjM3YTZjNzQ2OTg4YjZkZjRiYjA3MmUyOGRiM2FlNjJjNzJmMGE1YTA2MjYxZDcxNTNhYzA2YTY1Iiwic2Vxbm8iOjEwLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQF5Kv7pfECrQuJ/Hi4cp6XK81DWT/UVx7ZnO2Lso8io1GJ+TrkTj9xbJLBK6275IfF1tTUVhp58BXzn95EAAxwyoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCB/vYWSAHRHUkR6e3ZcgR8I1/RgDk/kim7kLXUJVcC8y6N0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sympodius
+
+==================================================================

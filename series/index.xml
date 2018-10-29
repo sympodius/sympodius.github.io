@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on JUF</title>
+    <link>http://johnurquhartferguson.info/series/</link>
+    <description>Recent content in Series on JUF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 02 Aug 2010 09:35:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://johnurquhartferguson.info/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Superheros Birthday</title>
+      <link>http://johnurquhartferguson.info/series/a-superheros-birthday/</link>
+      <pubDate>Mon, 02 Aug 2010 09:35:00 +0000</pubDate>
+      
+      <guid>http://johnurquhartferguson.info/series/a-superheros-birthday/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dasein</title>
+      <link>http://johnurquhartferguson.info/series/dasein/</link>
+      <pubDate>Sun, 06 Jan 2013 13:25:00 +0000</pubDate>
+      
+      <guid>http://johnurquhartferguson.info/series/dasein/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paternal Bonds</title>
+      <link>http://johnurquhartferguson.info/series/paternal-bonds/</link>
+      <pubDate>Sun, 17 Jun 2012 09:35:00 +0000</pubDate>
+      
+      <guid>http://johnurquhartferguson.info/series/paternal-bonds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Soulstice</title>
+      <link>http://johnurquhartferguson.info/series/soulstice/</link>
+      <pubDate>Sat, 01 Apr 2017 18:00:00 +0000</pubDate>
+      
+      <guid>http://johnurquhartferguson.info/series/soulstice/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

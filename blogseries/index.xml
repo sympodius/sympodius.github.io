@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogseries on JUF</title>
+    <link>http://johnurquhartferguson.info/blogseries/</link>
+    <description>Recent content in Blogseries on JUF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    
+	<atom:link href="http://johnurquhartferguson.info/blogseries/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How I Write</title>
+      <link>http://johnurquhartferguson.info/blogseries/how-i-write/</link>
+      <pubDate>Thu, 16 Nov 2017 10:30:00 +0000</pubDate>
+      
+      <guid>http://johnurquhartferguson.info/blogseries/how-i-write/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Musings on Writing</title>
+      <link>http://johnurquhartferguson.info/blogseries/musings-on-writing/</link>
+      <pubDate>Thu, 01 Mar 2018 23:00:00 +0000</pubDate>
+      
+      <guid>http://johnurquhartferguson.info/blogseries/musings-on-writing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thought Factory</title>
+      <link>http://johnurquhartferguson.info/blogseries/thought-factory/</link>
+      <pubDate>Tue, 28 Nov 2017 23:45:00 +0000</pubDate>
+      
+      <guid>http://johnurquhartferguson.info/blogseries/thought-factory/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

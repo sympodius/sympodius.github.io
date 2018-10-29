@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>How I Write - My Website Software</title>
+    <meta charset="utf-8">
+    
+    <meta name="generator" content="Hugo 0.26" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="http://johnurquhartferguson.info/img/favicon.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://johnurquhartferguson.info/css/juf.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Josefin+Sans" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://unpkg.com/nanogallery2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://unpkg.com/nanogallery2/dist/jquery.nanogallery2.min.js"></script>
+    <script src="http://johnurquhartferguson.info/js/juf.js"></script>
+  </head>
+  
+      
+
+<body id="home">
+  
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	  <span class="icon-bar"></span>
+	  <span class="icon-bar"></span>
+	  <span class="icon-bar"></span>
+	</button>
+	<a class="navbar-brand JUFSigil JUFSigilNavBar" href="http://johnurquhartferguson.info/">JUF</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+	<ul class="nav navbar-nav navbar-right">
+	  <li><a href="http://johnurquhartferguson.info/about">ABOUT</a></li>
+	  <li><a href="http://johnurquhartferguson.info/categories/blog/">BLOG</a></li>
+	  <li><a href="http://johnurquhartferguson.info/categories/stories/">STORIES</a></li>
+	</ul>
+      </div>
+    </div>
+  </nav>
+  
+
+
+<div class="jumbotron text-center">
+  <h2 class="jumboHeader">How I Write - My Website Software</h2>
+  <h3>Thu, Nov 16, 2017</h3>
+</div>
+
+<div id="content" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      
+
+<p>An email has come flooding in to request information about the website software I use. So then, technical minded readers and enthusiastic neophytes alike, let us take a journey into the web.</p>
+
+<p>This is the second post in a series about how I do my writing. The first post introduced you to my writing software, <a href="https://www.gnu.org/software/emacs/">Emacs</a>. I mentioned that one of its benefits was that I was able to write everything in one place and then have it &lsquo;publish&rsquo; to lots of different places with very little effort.</p>
+
+<p>This website is one of those places. As you can imagine, it was important to my writing setup that I chose a website system that fit into this write-once-publish-everywhere philosophy. The software I use is called <a href="http://gohugo.io/">Hugo</a>.</p>
+
+<p>I should note that Hugo is by no means the only website software that would have worked with my writing setup. In fact, there are probably a very great number of systems that might have done just as well. However, I chose Hugo for some particular reasons which I will detail here. Additionally, I just happened to like the way that Hugo was designed and this is purely subjective on my part.</p>
+
+<p>Before I tell you why I chose Hugo, let us take a look at how websites are made today. Simplifying things greatly, let us say that there are three ways to make a website:</p>
+
+<ul>
+<li>Manual Static Creation</li>
+<li>Dynamic Generation</li>
+<li>Static Generation</li>
+</ul>
+
+<h1 id="manual-static-creation">Manual Static Creation</h1>
+
+<p>The simplest way to make a website (and the original way) is to create the website once in full, then upload it to a server somewhere. Each time a visitor comes to your website they will see the exact same thing, unless you go through the time-consuming process of updating the entire site and uploading it again.</p>
+
+<p>The benefits of this system are that it is quite easy to make, doesn&rsquo;t require databases or other fancy server features (which tend to cost more money), it&rsquo;s usually quite secure, and it will load quickly for your visitors.</p>
+
+<p>The downsides are that the websites are time-consuming to update and not very dynamic.</p>
+
+<h1 id="dynamic-generation">Dynamic Generation</h1>
+
+<p>These websites are more complicated to create and usually require some sort of database and language processor on the server (which often costs more money). However, these websites have the ability to update themselves based on content from other sources (such as other websites or the site&rsquo;s visitors).</p>
+
+<p>The benefits to this system are that it produces sites that are easier to update (you can add single items of content through the website itself without needing to update the whole site and upload it manually), it is more dynamic and allows content to be pulled in from its visitors and other sources, menus and links automatically update to display new content, and content can be customised for each visitor.</p>
+
+<p>The downsides are that these websites are less secure (requiring you to frequently spend time updating the website software), if you use third party sources or visitor content then you must monitor what content appears on your site, they are generally quite complicated to set up, and they usually cost more to run due to the databases and other server features that they rely on. These sites also tend to load more slowly because they need to generate their content on the fly. Depending on how good your server is, this could make the site a lot less fun for your readers to use.</p>
+
+<h1 id="static-generation">Static Generation</h1>
+
+<p>Between static creation and dynamic generation we have a middle ground. Statically generated websites are generated in one go before they are uploaded to a server. The idea here is to make the websites easier to update, but not require the databases and scripting languages of dynamic websites. Once the website is uploaded, it will appear the same for each visitor with no auto-generated or user generated content.</p>
+
+<p>The benefits then are ease of updating, menu systems and other links being automatically created, no requirement for databases or fancy server features, generally very secure, and very fast to load.</p>
+
+<p>The downsides are that the sites are less dynamic than fully dynamic generated sites, and it isn&rsquo;t tailored to each visitor.</p>
+
+<p>Hugo is in this last category. The reason I wanted a static generator solution is that this website only needs to be updated sporadically and I didn&rsquo;t feel visitor personalisation or public comments would be useful in this case. I also wanted the ease of updating through my writing system and most static website generators deal better with this than the other two methods.</p>
+
+<p>There are many static site generators around, and the reason I went for Hugo is that it seemed to work the way I would expect such a system to work. As such, the learning process was pretty easy for me. When I investigated other systems, they seemed much more complicated. Hugo is also very fast and just requires one program file to work.</p>
+
+<p>For Hugo, all the files that tell the site how to look and what content to display are on my computer. I just run the Hugo program and it converts all those files into the website. After the site was initially set up, all you have to do is add content files and Hugo takes care of the rest.</p>
+
+<p>I won&rsquo;t go into any more detail about Hugo here as it is a complex topic but hopefully I have given you enough information to investigate it yourself if you&rsquo;re interested.</p>
+
+<p>Later articles may contain a more in depth tutorial of how Hugo works together with the rest of my writing setup.</p>
+
+<p>Catch you next time.</p>
+
+    </div>
+    <div class="col-sm-4">
+      
+      
+      
+      
+      <h4><i class="material-icons">rss_feed</i>Subscribe</h4>
+      <p><a href="http://johnurquhartferguson.info/categories/blog/index.xml" type="application/rss+xml" target="_blank">Subscribe to Blog</a></p>
+      <p><a href="http://johnurquhartferguson.info/categories/stories/index.xml" type="application/rss+xml" target="_blank">Subscribe to Stories</a></p>
+      <p><a href="http://johnurquhartferguson.info/index.xml" type="application/rss+xml" target="_blank">Subscribe to Entire Site</a></p>
+    </div>
+  </div>
+</div>
+
+    <footer class="container-fluid text-center">
+      <a href="#home" title="To Top">
+	<span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <p class="center follow-bubbles">
+	<a href="https://twitter.com/sympodius" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://www.flickr.com/photos/fictionality/" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-flickr fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://www.instagram.com/sympodius/" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://github.com/sympodius" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://www.reddit.com/user/sympodius" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-reddit-alien fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://www.facebook.com/john.u.ferguson" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://uk.pinterest.com/sympodius/" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-pinterest-p fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://www.scribd.com/user/31340930/John-Urquhart-Ferguson" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-scribd fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://imvdb.com/n/john-ferguson" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-youtube-play fa-stack-1x fa-inverse"></i></span></a>
+      </p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a> 2018 <a href="https://keybase.io/sympodius" target="_blank">John Urquhart Ferguson</a></p>
+    </footer>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-30129066-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    
+  </body>
+</html>
+
+
+
