@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>How I Write on JUF</title>
-    <link>http://johnurquhartferguson.info/blogseries/how-i-write/</link>
+    <link>https://johnurquhartferguson.info/blogseries/how-i-write/</link>
     <description>Recent content in How I Write on JUF</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
     <lastBuildDate>Thu, 16 Nov 2017 10:30:00 +0000</lastBuildDate>
     
-	<atom:link href="http://johnurquhartferguson.info/blogseries/how-i-write/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://johnurquhartferguson.info/blogseries/how-i-write/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How I Write - My Website Software</title>
-      <link>http://johnurquhartferguson.info/post/how-i-write-my-website-software/</link>
+      <link>https://johnurquhartferguson.info/post/how-i-write-my-website-software/</link>
       <pubDate>Thu, 16 Nov 2017 10:30:00 +0000</pubDate>
       
-      <guid>http://johnurquhartferguson.info/post/how-i-write-my-website-software/</guid>
+      <guid>https://johnurquhartferguson.info/post/how-i-write-my-website-software/</guid>
       <description>An email has come flooding in to request information about the website software I use. So then, technical minded readers and enthusiastic neophytes alike, let us take a journey into the web.
 This is the second post in a series about how I do my writing. The first post introduced you to my writing software, Emacs. I mentioned that one of its benefits was that I was able to write everything in one place and then have it &amp;lsquo;publish&amp;rsquo; to lots of different places with very little effort.</description>
     </item>
     
     <item>
       <title>How I Write - My Writing Software</title>
-      <link>http://johnurquhartferguson.info/post/how-i-write-my-writing-software/</link>
+      <link>https://johnurquhartferguson.info/post/how-i-write-my-writing-software/</link>
       <pubDate>Mon, 09 Oct 2017 16:30:00 +0100</pubDate>
       
-      <guid>http://johnurquhartferguson.info/post/how-i-write-my-writing-software/</guid>
+      <guid>https://johnurquhartferguson.info/post/how-i-write-my-writing-software/</guid>
       <description>Are you ready to learn about the overly complicated system I use for my writing? I&amp;rsquo;m not sure that I would be, but apparently a few of you are desperate to find out. At least, that&amp;rsquo;s what I&amp;rsquo;m led to believe by the overwhelming number of requests (there were three) I&amp;rsquo;ve had to write this series of articles.
 The plan is to talk through some software and hardware that I use for writing.</description>
     </item>
