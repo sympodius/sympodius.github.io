@@ -43,6 +43,10 @@ body {
     text-align: center;
 }
 
+.org-center {
+    text-align: center;
+}
+
 #side-menu-front {
     background-attachment: scroll, fixed;
     position: fixed;
