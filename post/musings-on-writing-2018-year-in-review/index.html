@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Musings on Writing - 2018 Year in Review</title>
+    <meta charset="utf-8">
+    
+    <meta name="generator" content="Hugo 0.50" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="https://johnurquhartferguson.info/img/favicon.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://johnurquhartferguson.info/css/juf.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Josefin+Sans" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://unpkg.com/nanogallery2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://unpkg.com/nanogallery2/dist/jquery.nanogallery2.min.js"></script>
+    <script src="https://johnurquhartferguson.info/js/juf.js"></script>
+  </head>
+  
+      
+
+<body id="home">
+  
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	  <span class="icon-bar"></span>
+	  <span class="icon-bar"></span>
+	  <span class="icon-bar"></span>
+	</button>
+	<a class="navbar-brand JUFSigil JUFSigilNavBar" href="https://johnurquhartferguson.info/">JUF</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+	<ul class="nav navbar-nav navbar-right">
+	  <li><a href="https://johnurquhartferguson.info/about">ABOUT</a></li>
+	  <li><a href="https://johnurquhartferguson.info/categories/blog/">BLOG</a></li>
+	  <li><a href="https://johnurquhartferguson.info/categories/stories/">STORIES</a></li>
+	</ul>
+      </div>
+    </div>
+  </nav>
+  
+
+
+<div class="jumbotron text-center">
+  <h2 class="jumboHeader">Musings on Writing - 2018 Year in Review</h2>
+  <h3>Sun, Mar 3, 2019</h3>
+</div>
+
+<div id="content" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      
+
+<p>I&rsquo;m alive! You might not believe me, but I <em>totally</em> am.</p>
+
+<p>Yes, it&rsquo;s been a year since I posted anything here. Yes, the last thing I posted was the <strong>previous</strong> year&rsquo;s &lsquo;Year in Review.&rsquo; Yes, I can list agreements&hellip; but I did <em>lots</em> of stuff this year&hellip; <em>LOTS</em> of stuff!</p>
+
+<p>It is disappointing that I didn&rsquo;t post more. You would be correct in thinking that this is representative of my writing output for the year. I do have reasons, but they&rsquo;re not artistic.</p>
+
+<p>In last year&rsquo;s &lsquo;Year in Review&rsquo; I spoke about the writing setup that I had created. It took up a lot of my time in 2017, but I used the system to finish a short story, work on a novel, write some blog posts, and compose lots of emails and letters. In 2018, I worked even harder on that writing setup&hellip; and did almost no writing.</p>
+
+<p>Rather than justify my decision to work on something that would help me write more (instead of just writing), I will press upon your sympathy to forgive me for it.</p>
+
+<p>Since I can&rsquo;t speak about anything I wrote this year, this post will have a section on the &lsquo;Nex Writing Setup,&rsquo; and another on &lsquo;other stuff.&rsquo;</p>
+
+<h1 id="the-nex-writing-setup">The Nex Writing Setup</h1>
+
+<p>Just to be clear, the &lsquo;Nex Writing Setup&rsquo; (NWS) is a moving target. I thought it was more or less done last year, but it&rsquo;s changed a lot since then and I have plans to change it more in the future. The reason I never got around to writing a tutorial on how to replicate my setup is because it&rsquo;s evolving too fast. I&rsquo;d like to say it&rsquo;s slowing down now, but it&rsquo;s hard to tell. Either way, this post will talk about things that may disappear in the future.</p>
+
+<p>The main additions I made to the NWS concerned the creation of working documents. My previous efforts concerned exporting my writing to other formats. While there was a specific way to lay out my writing to enable this, getting that layout correct was a manual task for the writer. I decided that it should be automatic. In theory this would save a great deal of time. The NWS will now create the skeleton files whenever you start a new story. It will then allow you to add new chapters and note files as required (for characters, locations, and props) while creating the appropriate skeleton files and linking them up with the rest of the story. You can even change chapter numbers, delete chapters, delete note files and the NWS will correctly update the other story files that link to them. This automation makes the whole system much more robust, meaning the original export functions are far more likely to succeed without errors. It also means that I don&rsquo;t have to remember all the rules for laying out the files.</p>
+
+<p>Making these additions also afforded me the opportunity to improve my earlier code and discover some bugs (which I corrected). For example, my system didn&rsquo;t correctly deal with single chapter stories. Also, the export stuff was hard coded in, making changes difficult. I&rsquo;ve now introduced the early stages of a template system so that it will be easier to change the layout of exported documents.</p>
+
+<p>This was a lot more work than the version from last year. Perhaps five times as much.</p>
+
+<p>There&rsquo;s still a lot more planned. I&rsquo;d like the ability to change the story title and chapter titles after they are first created. Additionally, I would prefer that the NWS used global variables for things like &lsquo;author&rsquo; and &lsquo;default eBook template&rsquo; which can then be overridden by each individual story. The NWS is growing. It&rsquo;s no longer just a few functions to help export stories: it&rsquo;s becoming a complete setup for writing stories from within Emacs.</p>
+
+<h2 id="other-emacs-improvements-that-i-didn-t-code">Other Emacs Improvements That I Didn&rsquo;t Code</h2>
+
+<p>Spending so much time in Emacs seems to encourage me to tinker. As such, my Emacs configuration (unrelated to the NWS) changed a fair bit this year too.</p>
+
+<p>The biggest change was a complete rewrite of my configuration file to use <a href="https://en.wikipedia.org/wiki/Literate_programming">literate programming</a> style and the &lsquo;<a href="https://jwiegley.github.io/use-package/">use package</a>&rsquo; system. The more I work with Emacs, the more it feels like an operating system. And I like that. I&rsquo;ve also got more of the configuration files set up in syncing locations so that I can easily shift between computers and operating systems (only Windows and GNU/Linux so far). I can now move between any of my computers and Emacs appears just the same with all my files just where I left them. Adding a new computer into the mix is trivial. I&rsquo;m pretty pleased with the setup.</p>
+
+<p>I added in some additional writing tools as well. For instance, &lsquo;<a href="http://bnbeckwith.com/code/writegood-mode.html">WriteGood</a>&rsquo; highlights some common instances of &lsquo;bad&rsquo; writing in real-time, and &lsquo;<a href="https://languagetool.org/">LanguageTool</a>&rsquo; is a deeply comprehensive spelling and grammar checker that you can run when you finish a draft.</p>
+
+<h2 id="improvements-to-the-setup-outside-of-emacs">Improvements to the Setup Outside of Emacs</h2>
+
+<p><a href="https://www.gnu.org/software/emacs/">Emacs</a> itself got a major upgrade this year (version 26.1). It&rsquo;s been fantastic, but one minor issue is that the spell checker I had been using with Emacs no longer worked in the new version on Windows. Emacs 26.1 and above now requires <a href="http://aspell.net/">Aspell</a> 0.60 or higher, however, the official Windows release of Aspell is only at 0.50.3 (which is from 2002!).</p>
+
+<p>I tried replacing it with <a href="https://hunspell.github.io/">Hunspell</a>, which is the spell checker that <a href="http://www.libreoffice.org/">LibreOffice</a> uses. I had a minor issue with it though. Hunspell was giving false positives for &lsquo;misspelled&rsquo; words when they used apostrophes. For example, &ldquo;<code>John's</code>&rdquo; would appear misspelled but &ldquo;<code>John’s</code>&rdquo; would be fine. This appears to be due to an oddity with Unicode that Aspell was too old to care about but which Hunspell observed. Sadly, my keyboard always makes the first one. The easiest way for me to fix this was to edit one of Hunspell&rsquo;s language files for English. So I did that and it works fine now.</p>
+
+<p>Then, just for fun, I got hold of a newer (technically unofficial) version of Aspell on Windows. So now I can use either.</p>
+
+<p>The versions of Hunspell and Aspell that I&rsquo;m using on Windows are from <a href="http://repo.msys2.org/mingw/x86_64/">http://repo.msys2.org/mingw/x86_64/</a>
+and were built using recipes from <a href="https://github.com/Alexpux/MINGW-packages">https://github.com/Alexpux/MINGW-packages</a> . These may not work with the windows version of Emacs, however, unless you have installed it using the <a href="https://ftp.gnu.org/gnu/emacs/windows/emacs-26/emacs-26-x86_64-deps.zip">GNU supplied dependency files</a> and have the Emacs bin folder added to your system path. To fix the issue I had with Hunspell, edit the &ldquo;.aff&rdquo; file of the language you are using. On my system, I edited &ldquo;&hellip;/hunspell/share/hunspell/en_GB.aff&rdquo; so that the line which says &ldquo;WORDCHARS 0123456789&rdquo; now reads &ldquo;WORDCHARS 0123456789’&rdquo; which seems to fix things.</p>
+
+<p>I also upgraded the website to use the most current version of Hugo. That version had previously caused my website to break, so I had to update some things and now it&rsquo;s working better than ever. I&rsquo;m considering another refresh on the website too. The current one was a bit of a &lsquo;proof of concept&rsquo; to show that I could get a website working with the NWS, but I think I could probably do a better job now.</p>
+
+<p>After completing the current version of the NWS, I remade all my existing stories in the new system to test it out. This also provided me the opportunity to clean up my files a little and reorganise some stuff. One change I made was to tell Emacs not to store temporary files alongside the story files any more. Instead, all temporary files are now banished to their own folder where I never have to look at them unless something awful happens.</p>
+
+<p>Porting the old stories over also highlighted some minor bugs in the NWS (which I fixed).</p>
+
+<p>Part of this clean-up process was moving my stories from <a href="https://github.com/">GitHub</a> to <a href="https://keybase.io/">Keybase</a>. Keybase provides all the functions I was using in GitHub except that it&rsquo;s fully encrypted, which seems important to me. Conversely, I moved the website to GitHub. The main reason for this was that GitHub can serve web pages it hosts using a secure connection. My previous web host would only do that if I paid them a lot of money. It&rsquo;s worked out well though because I can now serve pages securely (which is better for my website visitors), it costs me less money, people can see how I made the website and learn from it (because it&rsquo;s all right there on GitHub), and I can now deploy the website directly from within Emacs using Magit.</p>
+
+<p>Since my writing and most of my configuration files are now stored in <a href="https://git-scm.com/">Git</a>, I have less reliance on <a href="https://www.dropbox.com/">Dropbox</a>. I&rsquo;m pretty much just using it for syncing session management quickly between computers. While Git requires a little more manual involvement for syncing, I&rsquo;m much more comfortable being in control of how it operates and knowing that it is secure and encrypted.</p>
+
+<h1 id="other-stuff">Other Stuff</h1>
+
+<p>I spent some time in 2018 getting pretty deep into two writing hobbies that I was just beginning to get interested in last year: computer keyboards and fountain pens.</p>
+
+<p>I don&rsquo;t want to get too much into that here as I will most likely give them their own detailed posts. However, in order to create anticipation, here is a short summary: I spent way more money than is reasonable, I became kind of an expert in both areas, I now have the best possible keyboards and pens that I&rsquo;m ever likely to need, and I even built my own keyboard with a soldering iron.</p>
+
+<p>I also had a go trying to get back into Bullet Journals, but I don&rsquo;t think they really help me. Organisation and logging was never a problem for me and I&rsquo;m comfortable with my own systems for that. I may try to incorporate the self-reflection stuff though. If nothing else, it could be an interesting writing exercise.</p>
+
+<h1 id="the-year-ahead">The Year Ahead</h1>
+
+<p>The first couple of months of 2019 have been impossibly busy for me. This has all been from my day job. As such, I have neither written anything nor programmed anything related to writing thus far. Sadly, it looks like the next three to six months will be much the same. This is also the reason that 2018&rsquo;s &lsquo;Year in Review&rsquo; is coming out in March.</p>
+
+<p>As for the NWS, I&rsquo;ve already mentioned some features that I would like to improve or add. There are additional ones written down in a &lsquo;possible improvements&rsquo; file, but I&rsquo;m not sure I&rsquo;ll ever get round to them. They would probably be useful, but extremely time-consuming to implement. I&rsquo;m not sure they are worth the effort. For example: I could probably include some automated linking such that every time a character name or location appeared in the story, a link would be created back to its notes file for reference.</p>
+
+<p>I desperately want to get back to some writing. Hopefully I&rsquo;ll figure it out. I feel this post has been rushed and is likely boring. I apologise for that. But hey, at least you know I&rsquo;m not dead.</p>
+
+    </div>
+    <div class="col-sm-4">
+      
+      
+      
+      
+      <h4><i class="material-icons">rss_feed</i>Subscribe</h4>
+      <p><a href="https://johnurquhartferguson.info/categories/blog/index.xml" type="application/rss+xml" target="_blank">Subscribe to Blog</a></p>
+      <p><a href="https://johnurquhartferguson.info/categories/stories/index.xml" type="application/rss+xml" target="_blank">Subscribe to Stories</a></p>
+      <p><a href="https://johnurquhartferguson.info/index.xml" type="application/rss+xml" target="_blank">Subscribe to Entire Site</a></p>
+    </div>
+  </div>
+</div>
+
+    <footer class="container-fluid text-center">
+      <a href="#home" title="To Top">
+	<span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <p class="center follow-bubbles">
+	<a href="https://twitter.com/sympodius" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://www.flickr.com/photos/fictionality/" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-flickr fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://www.instagram.com/sympodius/" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://github.com/sympodius" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://www.reddit.com/user/sympodius" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-reddit-alien fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://www.facebook.com/john.u.ferguson" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://uk.pinterest.com/sympodius/" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-pinterest-p fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://www.scribd.com/user/31340930/John-Urquhart-Ferguson" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-scribd fa-stack-1x fa-inverse"></i></span></a>
+	<a href="https://imvdb.com/n/john-ferguson" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-youtube-play fa-stack-1x fa-inverse"></i></span></a>
+      </p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a> 2019 <a href="https://keybase.io/sympodius" target="_blank">John Urquhart Ferguson</a></p>
+    </footer>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-30129066-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    
+  </body>
+</html>
+
+
+
