@@ -3,8 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://johnurquhartferguson.info/categories/blog/</loc>
+    <lastmod>2019-03-03T20:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://johnurquhartferguson.info/blogseries/</loc>
+    <lastmod>2019-03-03T20:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://johnurquhartferguson.info/categories/</loc>
+    <lastmod>2019-03-03T20:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://johnurquhartferguson.info/</loc>
+    <lastmod>2019-03-03T20:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://johnurquhartferguson.info/post/musings-on-writing-2018-year-in-review/</loc>
     <lastmod>2019-03-03T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://johnurquhartferguson.info/blogseries/musings-on-writing/</loc>
+    <lastmod>2019-03-03T20:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://johnurquhartferguson.info/post/</loc>
+    <lastmod>2019-03-03T20:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -18,8 +54,20 @@
   </url>
   
   <url>
+    <loc>https://johnurquhartferguson.info/blogseries/thought-factory/</loc>
+    <lastmod>2017-11-28T23:45:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://johnurquhartferguson.info/post/how-i-write-my-website-software/</loc>
     <lastmod>2017-11-16T10:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://johnurquhartferguson.info/blogseries/how-i-write/</loc>
+    <lastmod>2017-11-16T10:30:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -38,8 +86,26 @@
   </url>
   
   <url>
+    <loc>https://johnurquhartferguson.info/series/</loc>
+    <lastmod>2017-04-01T18:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://johnurquhartferguson.info/series/soulstice/</loc>
+    <lastmod>2017-04-01T18:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://johnurquhartferguson.info/post/soulstice-chapter-5-unification/</loc>
     <lastmod>2017-04-01T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://johnurquhartferguson.info/categories/stories/</loc>
+    <lastmod>2017-04-01T18:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -93,6 +159,12 @@
   </url>
   
   <url>
+    <loc>https://johnurquhartferguson.info/series/dasein/</loc>
+    <lastmod>2013-01-06T13:25:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://johnurquhartferguson.info/post/dasein-chapter-5-authenticity/</loc>
     <lastmod>2013-01-06T13:25:00+00:00</lastmod>
   </url>
@@ -143,6 +215,12 @@
   </url>
   
   <url>
+    <loc>https://johnurquhartferguson.info/series/paternal-bonds/</loc>
+    <lastmod>2012-06-17T09:35:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://johnurquhartferguson.info/post/asuperherosbirthday/</loc>
     <lastmod>2010-08-02T09:35:00+00:00</lastmod>
   </url>
@@ -154,84 +232,7 @@
   </url>
   
   <url>
-    <loc>https://johnurquhartferguson.info/categories/blog/</loc>
-    <lastmod>2019-03-03T20:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://johnurquhartferguson.info/blogseries/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://johnurquhartferguson.info/categories/</loc>
-    <lastmod>2019-03-03T20:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://johnurquhartferguson.info/series/dasein/</loc>
-    <lastmod>2013-01-06T13:25:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://johnurquhartferguson.info/blogseries/how-i-write/</loc>
-    <lastmod>2017-11-16T10:30:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://johnurquhartferguson.info/</loc>
-    <lastmod>2019-03-03T20:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://johnurquhartferguson.info/blogseries/musings-on-writing/</loc>
-    <lastmod>2019-03-03T20:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://johnurquhartferguson.info/series/paternal-bonds/</loc>
-    <lastmod>2012-06-17T09:35:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://johnurquhartferguson.info/post/</loc>
-    <lastmod>2019-03-03T20:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://johnurquhartferguson.info/series/</loc>
-    <lastmod>2010-08-02T09:35:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://johnurquhartferguson.info/series/soulstice/</loc>
-    <lastmod>2017-04-01T18:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://johnurquhartferguson.info/categories/stories/</loc>
-    <lastmod>2017-04-01T18:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://johnurquhartferguson.info/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://johnurquhartferguson.info/blogseries/thought-factory/</loc>
-    <lastmod>2017-11-28T23:45:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
